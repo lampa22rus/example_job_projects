@@ -1,0 +1,123 @@
+.menu2 [type="checkbox"]{
+	display: none;
+}
+.menu2 label.togglemenu{
+	margin-top: 70px;
+	left: 685px;
+	display: none;
+	padding: 5px 0px;
+	font-size: 16px;
+	cursor: pointer;
+	position: relative;
+}
+
+.menu2 label.togglemenu .bi{
+	position: relative;
+	top: 0px;
+	left:0px;
+	font-size: 24px;
+	color: white;
+	
+}
+
+.btn_serv{
+	display: block;
+    max-width: 150px;
+    margin: 150px auto;
+    padding: 5px 5px 5px 5px;
+    color: var(--bs-white);
+    background-color: var(--color4);
+}
+
+header {
+    padding: 250px 0;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 980px) {
+	header{
+		padding: 250px 0;
+	}
+
+	.btn-cent{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.btn_serv{
+		display: block;
+    	max-width: 150px;
+    	margin: 220px auto 10px auto;
+	}
+
+	.menu1 >li{
+		display: flex;
+	}
+	.menu1 a{
+		display: flex;
+		flex-wrap: nowrap;
+		width: 200px;
+	}
+
+	.menu1 i{
+		display: flex;
+		padding: 5px;
+	}
+	
+	.menu2 {
+		overflow: hidden;
+	}
+	.menu2 ul{
+		display: none;
+		background-color: rgba(0, 0, 0, 0.5);
+		margin: 38px;
+	}
+	.menu2 > ul>li{
+		margin: -38px 0;
+	}
+	.menu2 label.togglemenu{
+		display: block;
+		width: 100%;
+		margin: 100px -450px;
+		
+		
+	}
+
+	.menu2 label.togglemenu .bi{
+		display: block;
+		font-size: 40px;
+		color: white;
+
+	}
+	input.togglemenu:checked ~ ul{
+		display: block;
+		
+	}
+	.logo1{
+		display: flex;
+		justify-content:center;
+		flex-direction: column;
+	}
+	.logo1>img{
+		display: none;
+	}
+	.menu1{
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.menu1>li>i{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	
+}

@@ -1,0 +1,148 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#error{
+	margin-left: 20%;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.inp{
+	width: 200px;
+
+	margin-top: 1%;
+	text-align: center;
+}
+
+.result{
+	width: 100%;
+	height: 200px;
+	border: black solid 2px;
+}
+.btn{
+	margin-top: 1%;
+	margin-left: 45%;
+	margin-bottom: 1%;
+	width: 150px;
+	height: 40px;
+	background-color: gold;
+}
+#container_main{
+	margin: 0 auto;
+}
+.cards{
+	float: left;
+	width: 280px;
+	height: 100%;
+	border: solid slategrey 2px;
+	display: inline;
+	margin-left:  3%;
+
+}
+._id{
+	text-align: center;
+	width: 99%;
+	height: 20px;
+	background-color: aqua;
+	border: solid blue 2px;
+}
+img{
+	float: left;
+	width: 100px;
+	height: 112px;
+	background-color: aqua;
+}
+.name{
+	border: solid black 1px;
+	width: 60%;
+	padding-left: 10px;
+	height: 20px;
+	float: left;
+	background-color: aqua;
+}
+
+.age{
+	border: solid black 1px;
+	width: 60%;
+	padding-left: 10px;
+	float: left;
+	height: 20px;
+	background-color: aqua;
+}
+
+.gender{
+	border: solid black 1px;
+	width: 60%;
+	padding-left: 10px;
+	float: left;
+	height: 20px;
+	background-color: aqua;
+}
+
+.company{
+	border: solid black 1px;
+	width: 60%;
+	padding-left: 10px;
+	float: left;
+	height: 20px;
+	background-color: aqua;
+}
+
+.email{
+	border: solid black 1px;
+	width: 60%;
+	padding-left: 10px;
+	float: left;
+	height: 20px;
+	background-color: aqua;
+}
+
+.phone{
+	border: solid black 1px;
+	width: 60%;
+	padding-left: 10px;
+	float: left;
+	height: 20px;
+	background-color: aqua;
+}
+
+.address{
+	border: solid black 1px;
+	width: 100%;
+	float: left;
+	height: 20px;
+	background-color: aqua;
+}
+
+.about{
+	border: solid black 1px;
+	width: 100%;
+	float: left;
+	height: 50%;
+	background-color: aqua;
+}
+
+
+.friends{
+
+	width: 100%;
+	float: left;
+	height: 50%;
+	background-color: aqua;
+
+
+}
+
+.friend{
+	border: solid black 1px;
+	width: 100%;
+	float: left;
+	height: 50%;
+	background-color: yellow;
+	position: relative;
+
+}
+
+
